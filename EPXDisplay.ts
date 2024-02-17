@@ -135,8 +135,7 @@ namespace EPXDisplay {
               if (logicalPixelPositionFlip % 16 > 7) {
                 logicalPixelPositionFlip =
                   Math.floor(logicalPixelPositionFlip / 16) * 16 +
-                  (16 - (logicalPixelPositionFlip % 16)) +
-                  8;
+                  (16 - (logicalPixelPositionFlip % 16));
               }
               // Set pixel color
               strip.setPixelColor(
