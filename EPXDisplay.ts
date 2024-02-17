@@ -1,6 +1,7 @@
 enum EPXAnimations {
   //% block=Weather
   Weather,
+  rocketJourney,
 }
 
 namespace EPXDisplay {
@@ -14,6 +15,9 @@ namespace EPXDisplay {
       // case EPXAnimations.Globe: writeAnimation(strip, SpinningGlobe); break;
       case EPXAnimations.Weather:
         writeAnimation(strip, Weather);
+        break;
+      case EPXAnimations.rocketJourney:
+        writeAnimation(strip, rocketJourney);
         break;
       // case EPXAnimations.ColorSpin: writeAnimation(strip, ColorSpin); break;
     }
