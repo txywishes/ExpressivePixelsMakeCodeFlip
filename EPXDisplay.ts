@@ -98,7 +98,7 @@ namespace EPXDisplay {
                 pixelPosFlip =
                   Math.floor(pixelPosFlip / 16) * 16 +
                   (16 - (pixelPosFlip % 16)) +
-                  8;
+                  9;
               }
               // Set pixel color
               strip.setPixelColor(pixelPosFlip, palette[paletteIdx]);
@@ -137,7 +137,7 @@ namespace EPXDisplay {
                 logicalPixelPositionFlip =
                   Math.floor(logicalPixelPositionFlip / 16) * 16 +
                   (16 - (logicalPixelPositionFlip % 16)) +
-                  8;
+                  9;
               }
               // Set pixel color
               strip.setPixelColor(
